@@ -1,0 +1,121 @@
+.header{
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	height: 10vh;
+	min-height: 100px;
+}
+
+#search-bar{
+	width: 30%;
+    margin: 0 10% 0 65%;
+}
+
+#search{
+	border: black;
+	border-radius: 3px;
+	padding: 4px 4px 4px 4px;
+}
+
+#title{
+	margin: 0 0 0 5%;
+}
+
+#desc{
+	width: 50%;
+}
+
+#link{
+	width: 10%;
+}
+
+#tags{
+	width: 20%;
+}
+
+/* CLASSES */
+.images{
+	margin: 0 0 70px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.imgView{
+	width: 90%;
+    margin-top: 10px;
+    border-width: 2px;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: cornsilk;
+    display: inline-flex;
+    height: 35vw;
+}
+
+.img{
+	display: block;
+    margin: 2% 5% 2% 5%;
+    width: 30%;
+    height: auto;
+}
+
+.imgData{
+	width: 50%;
+	align-items: center;
+	align-content: center;
+}
+.delete{
+	position: absolute;
+	width: 5vw;
+	height: 5vw;
+	background-color: lightcoral;
+	border-radius: 16vh;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+.title{
+	text-align: center;
+	font-size: 20pt;
+	font-variant: small-caps;
+	color: brown;
+	margin: 3% 0 3% 0;
+	height: 10%;
+}
+
+.description{
+	margin: 3% 0% 3% 0%;
+    height: 62%;
+    display: flex;
+}
+
+.descriptionText{
+	vertical-align: middle;
+    margin: auto;
+    font-size: 15pt;
+}
+
+.tags{
+	display: flex;
+    height: 10%;
+    margin: 3% 0% 3% 0%;
+    font-size: 15pt;
+    vertical-align: middle;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: lightgray;
+    width: 100%;
+    padding: 1% 1% 1% 1%;
+}
+
+.addImg{
+	right: 1%;
+    position: fixed;
+    background-color: white;
+}
+
+body{
+	margin: 0px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
