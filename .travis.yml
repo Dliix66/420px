@@ -8,6 +8,9 @@ php:
 services:
     - mysql
 
+before_script:
+    - composer update
+
 script:
     - phpunit
 
