@@ -11,9 +11,5 @@ services:
 script:
     - phpunit
 
-notification:
-    slack:
-        rooms: 
-            - jobobagr:YmqvkAPUlhqRKEYXCgJ1qVQa#devops #to be created
-        on_success: always #default : change
-        on_failure: always #default : always
+notifications:
+    slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
