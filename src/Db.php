@@ -18,9 +18,9 @@
 
 		public function init()
 		{
-			$dsn = 'mysql:host=localhost;dbname=420px';
+			$dsn = 'mysql:host=mysql;dbname=420px';
     		$user = 'root';
-    		$password = 'root';
+    		$password = 'passroot';
     		$this->connection = new PDO($dsn, $user, $password);
 		}
 

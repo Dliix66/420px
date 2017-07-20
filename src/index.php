@@ -19,7 +19,7 @@
 
 		if (isset($_FILES['file'])) // ADDING IMG
 		{
-			if ($_FILES['file']['error'] > 0) 					$errors .= "Erreur durant l'upload...";
+			if ($_FILES['file']['error'] > 0) 					$errors .= "Erreur durant l'upload...".$_FILES['file']['error'];
 			else if ($_FILES['file']['size'] > 104857600) 		$errors .= "Le fichier est trop gros... Taille maximale: 100Mo";
 			else
 			{

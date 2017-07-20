@@ -1,13 +1,20 @@
-image: php:apache
+apache:
+    build: ./src/
     volumes:
-    - "src/:/var/www/html"
+    - "./src/:/var/www/html"
     links:
     - mysql
+    restart: always
     ports:
     - "8080:80"
-    privileged: true
 
 mysql:
     image: mysql:latest
+    restart: always
+    env_file: ./mysql/mysql.env
+    volumes:
+    - "./mysql/:/mysql"
+    ports:
+    - "30100:3306"
     environment:
         MYSQL_ROOT_PASSWORD: passroot
