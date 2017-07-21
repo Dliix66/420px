@@ -16,7 +16,9 @@ script:
 
 notifications:
     slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
-    email:
+
+notifications:
+	email:
     	recipients:
     	  - dliix66+udf40lxbnhknptlwfkko@boards.trello.com
     	  - barat_v@epita.fr
