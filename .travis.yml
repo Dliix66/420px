@@ -16,4 +16,10 @@ script:
 
 notifications:
     slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
-    email: dliix66+udf40lxbnhknptlwfkko@boards.trello.com
+    email:
+    	recipients:
+    	  - dliix66+udf40lxbnhknptlwfkko@boards.trello.com
+    	  - barat_v@epita.fr
+    	  - r.nassty@gmail.com
+    	on_success: always # default: change
+    	on_failure: always # default: always
