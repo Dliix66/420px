@@ -15,4 +15,6 @@ script:
     - phpunit
 
 notifications:
-    slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
+  slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
+  email:
+    - barat_v@epita.fr
