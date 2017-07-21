@@ -21,3 +21,6 @@ CREATE TABLE IF NOT EXISTS `Image` (
 
 INSERT INTO `User` (name, password)
 VALUES ('Val', 'pwd');
+
+INSERT INTO `User` (name, password)
+VALUES ('Rom', 'pwd2');
