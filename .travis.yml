@@ -16,4 +16,8 @@ script:
 
 notifications:
   slack: jobobagr:haBu1Uoeo97A1iqKd2VEJLp3
-  email: true
+  email:
+    recipients:
+      - valentin@madjoh.com
+    on_success: always
+    on_failure: always
